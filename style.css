@@ -1,0 +1,14 @@
+html
+{
+    /* Prevents padding from adding extra width and extra height to the webpage */
+    box-sizing: border-box;
+}
+
+body
+{
+    /* 0 on all four sides */
+    margin: 0;
+    /* vh stands for view port hieght*/ 
+    /* always stretch the background at least the full height of the screen even if there isnt enough content to cover the full screen */
+    min-height: 100vh;
+}
